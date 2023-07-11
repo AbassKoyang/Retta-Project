@@ -567,6 +567,7 @@
     padding: 0;
     opacity: 0;
     animation: 1.5s ease forwards hero_animation__description__text;
+    animation-delay: 1s;
    }
    .spring .hero__description a .hero__cta{
     background-color: black; 
@@ -596,6 +597,7 @@
     gap: 1.3rem;
     opacity: 0;
     animation: 1.5s ease forwards hero_animation__access;
+    animation-delay: 1.5s;
    }
    .spring .partners a{
     padding: 12px 24px;
@@ -639,6 +641,8 @@
 
    .hero__image__con img{
     width: 62rem;
+    animation: 5s ease forwards hero_animation__image;
+    animation-delay: 5s;
    }
 
    .hero__image__con .colored__curved__box{
@@ -667,6 +671,12 @@
     }
 }
   @keyframes hero_animation__access {
+    to{
+      opacity: 1;
+    }
+}
+
+  @keyframes hero_animation__image {
     to{
       opacity: 1;
     }
@@ -1528,6 +1538,7 @@
     background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius:10px;
    }
 
    .section__seven .featured__collections .hoodie__collection h1{
@@ -1576,12 +1587,14 @@
     background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
     background-repeat: no-repeat;
     position: relative;
+    border-radius:10px;
    }
    .section__seven .featured__collections > div .shoes__collection{
     background-color: rgba(219, 216, 216, 0.837);
     background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
     background-repeat: no-repeat;
     position: relative;
+    border-radius:10px;
    } 
 
    .section__seven .featured__collections > div > div  h1{
@@ -1634,6 +1647,9 @@
   /*-----------------------------------*\
     #BLOG
   \*-----------------------------------*/
+  .blog{
+    margin-top: 10rem;
+  }
   
   .blog-card .card-banner { border-radius: var(--radius-10); }
   
@@ -1727,7 +1743,7 @@
     background-color: var(--eerie-black-2);
     color: var(--gray-x-11);
     font-size: var(--fs-5);
-    margin-top: 10rem;
+    margin-top: 0rem;
   }
   
   .footer-top {
