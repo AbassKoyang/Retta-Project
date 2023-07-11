@@ -2367,9 +2367,6 @@
     display: none;
   }
 
-  .section__six, .section__seven{
-    display: none;
-  }
 
 
   /* KEYFRAMES FOR HERO SECTION */
@@ -2773,7 +2770,7 @@
  .section__five .description .description__right a{
   color: var(--kappel);
   padding-bottom: 0.2rem;
-  border-bottom: 2px solid var(--kappel);
+  border-bottom: 1px solid var(--kappel);
   width: fit-content;
   margin-top: 0.7rem;
   font-weight: 500;
@@ -2864,6 +2861,313 @@
   color: var(--kappel);
   line-height: 0.5;
  }
+
+
+ /*---------------- SECTION SIX (INSPIRATION) ----------------*/
+  
+  .section__six{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2rem;
+    position: relative;
+    background-color: #f5cc9bd9;
+    margin-top: 18rem;
+    margin-bottom: 25rem;
+  }
+
+  .custom-shape-divider-top-1688982553 {
+    position: absolute;
+    top: -125px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688982553 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 126px;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1688982553 .shape-fill {
+    fill: #f5cc9bd9;
+}
+
+  .section__six .top{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section__six .top > h1{
+    font-size: 2rem;
+    color: black;
+    line-height: 1;
+  }
+  .section__six .top > p{
+    display: none;
+  }
+
+  .section__six .top > .spring__circle__con .spring__circle{
+    position: relative;
+    position: static;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color:var(--kappel);
+  }
+  .section__six .top > .spring__circle__con .spring__inner2{
+    position: relative;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+  }
+
+  .section__six .bottom{
+    width: 100%;
+    height: 75%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .section__six .bottom h1{
+    font-size: 8rem;
+    color: black;
+    text-align:center ;
+    z-index: 1;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  .section__six .bottom img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+  }
+
+  .custom-shape-divider-top-1688984225 {
+    position: absolute;
+    bottom: -149px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1688984225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1688984225 .shape-fill {
+    fill: #f5cc9bd9;
+}
+
+  /*------- SECTION SEVEN -------*/
+
+  .section__seven{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+   }
+  
+   .section__seven .description{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+   }
+  
+   .section__seven .description > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .section__seven .description .description__left h3{
+    color: var(--kappel);
+    font-size: 2rem;
+    font-weight: 600;
+   }
+   .section__seven .description .description__left h1{
+    color: black;
+    font-size: 4rem;
+    line-height: 1;
+   }
+  
+   .section__seven .description .description__right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .section__seven .description .description__right p{
+    color: var(--black_80);
+    font-size: 1.2rem;
+   }
+   .section__seven .description .description__right a{
+      color: var(--kappel);
+      padding-bottom: 0.3rem;
+      border-bottom: 2px solid var(--kappel);
+      width: fit-content;
+      margin-top: 0.7rem;
+      font-weight: 500;
+      font-size: 1.4rem;
+   }
+   .section__seven .featured__collections{
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+   }
+
+   .section__seven .featured__collections > div{
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 1rem;
+    position: relative;
+   }
+
+
+
+   .section__seven .featured__collections .hoodie__collection{
+    background-color: rgba(219, 216, 216, 0.837);
+    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+   .section__seven .featured__collections .hoodie__collection h1{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--ff-league_spartan);
+    color: black;
+    line-height: 1;
+   }
+
+   .section__seven .featured__collections .hoodie__collection a{
+    position: absolute;
+    right: 7%;
+    bottom: 8%;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: black; 
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+  
+   /* .section__five .new__collections > div > a{
+  
+   } */
+  
+   .section__seven .featured__collections .hoodie__collection a:hover{
+    background-color: var(--kappel);
+    transition: all 300ms ease;
+   }
+   .section__seven .featured__collections .hoodie__collection a:hover .light {
+    color: white;
+   }
+  
+   .section__seven .featured__collections .hoodie__collection a i{
+    color:white;
+    font-size: 2.2rem;
+   }
+  
+
+   .section__seven .featured__collections > div .pant__collection{
+    background-color: rgba(219, 216, 216, 0.837);
+    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: left;
+   }
+   .section__seven .featured__collections > div .shoes__collection{
+    background-color: rgba(219, 216, 216, 0.837);
+    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: left;
+   } 
+
+   .section__seven .featured__collections > div > div  h1{
+    position: absolute;
+    bottom: 6%;
+    left: 7%;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--ff-league_spartan);
+    color: black;
+    line-height: 1;
+   }
+
+   .section__seven .featured__collections > div > div a{
+    position: absolute;
+    top: 6%;
+    right: 7%;
+    background-color: black; 
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  
+   /* .section__five .new__collections > div > a{
+  
+   } */
+  
+   .section__seven .featured__collections > div > div  a:hover{
+    background-color: var(--kappel);
+    transition: all 300ms ease;
+   }
+   .section__seven .featured__collections > div > div  a:hover .light {
+    color: white;
+   }
+  
+   .section__seven .featured__collections > div > div  a i{
+    color:white;
+    font-size: 2.2rem;
+   }
   
 }
 
