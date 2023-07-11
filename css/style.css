@@ -2367,7 +2367,7 @@
     display: none;
   }
 
-  .section__three, .section__four, .section__five, .section__six, .section__seven{
+  .section__four, .section__five, .section__six, .section__seven{
     display: none;
   }
 
@@ -2517,3 +2517,85 @@
 
   
 }
+
+
+
+
+
+/*------------------------ SECTION THREE (COLLECTIONS)------------------------*/
+
+  .section__three{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 0 2rem;
+  }
+
+   /*------------------------ SECTION THREE (TEXTS)------------------------*/
+
+  .section__three .section__three__text__con {
+    background-color: white;
+    padding-top: 0rem;
+    height: 40%;
+    width: 100%;
+  }
+
+  .section__three .section__three__text__con span{
+    color: var(--kappel);
+    font-size: 1.7rem;
+    font-weight: 600;
+    
+  }
+  .section__three .section__three__text__con h1{
+    color: black;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  .section__three .section__three__text__con p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  .section__three .section__three__text__con .see__more__text__con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .section__three .section__three__text__con .see__more__text__con h2{
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    line-height: 1.1;
+  }
+
+  .section__three .section__three__text__con .see__more__text__con .cta{
+    background-color: black; 
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+   }
+   .section__three .section__three__text__con .see__more__text__con .cta:hover{
+    background-color: var(--kappel);
+    transition: all 300ms ease;
+   }
+
+   .section__three .section__three__text__con .see__more__text__con .cta i{
+    color: white;
+    font-size: 1.8rem;
+   }
+  
+ 
