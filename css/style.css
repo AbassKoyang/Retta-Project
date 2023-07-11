@@ -2337,6 +2337,13 @@
     display: none;
   }
 
+  .hero .spring .partners a:last-child{
+    border: 1px solid var(--kappel);
+  }
+  .hero .spring .partners a:last-child:hover{
+    border: none;
+  }
+
   .hero .hero__image__con .colored__curved__box{
     display: none;
 
@@ -2421,40 +2428,40 @@
 }
 
 .section__two__inner .section__two__middle .middle__curved__circle{
-  width: 18rem;
-  height: 18rem ;
+  width: 22rem;
+  height: 22rem ;
   border: 1px solid black;
 }
 
 .middle__curved__circle .arrow__circle{
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   top: 5%;
   right: -10%;
 }
 .middle__curved__circle .arrow__circle h3{
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: 500;
   margin-right: 20%;
 }
 .middle__curved__circle .arrow__circle img{
   top: 27%;
-  left: -0.5rem;
-  width: 1rem;
+  left: -0.7rem;
+  width: 1.3rem;
 }
 
 .section__two__inner .section__two__middle .middle__curved__circle .circle__text  h1{
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .section__two__inner .section__two__middle .middle__curved__circle .circle__text h1 span{
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-left: 0.2rem;
 }
 .middle__curved__circle .circle__text h5{
   color: black;
-  font-size: 0.8rem;
+  font-size: 01rem;
   margin-top: 0.5rem;
 }
 
