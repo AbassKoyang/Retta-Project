@@ -2253,10 +2253,10 @@
     margin-top: 0px;
     padding: 0;
     width: 100%;
-    height: 700px;
+    height: 350px;
     overflow: hidden;
     background-color: white;
-    margin-top: 120px;
+    margin-top: 100px;
   }
    .glide__track {
     width: 100%;
@@ -2286,7 +2286,7 @@
   
   .hero .spring{
     width: 100%;
-    height: 40%;
+    height: 100%;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -2327,38 +2327,162 @@
   }
 
   .hero .partners{
-    display: none;
+    justify-content: center;
+  }
+  .hero .spring .partners a{
+    font-size: 1.3rem;
   }
 
   .hero .hero__image__con{
-    width: 100%;
-    height: 60%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0;
+    display: none;
   }
 
   .hero .hero__image__con .colored__curved__box{
-    width: 6rem;
-    height: 5rem;
-    left: 3%;
-    bottom: 50%;
+    display: none;
+
   }
   .hero .hero__image__con img{
-    width: 90%;
+    display: none;
   }
   .hero .hero__image__con .side__nav{
     display: none;
   }
 
-  .section__two, .section__three, .section__four, .section__five, .section__six, .section__seven{
+  .section__three, .section__four, .section__five, .section__six, .section__seven{
     display: none;
   }
 
+
   /* KEYFRAMES FOR HERO SECTION */
 
-  @keyframes hero_animation {
+  @keyframes hero_animation__main {
+
+}
+
+ /* SECTION TWO */
+
+ .section__two{
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.section__two .collections__nav{
+  height: 10%;
+}
+.section__two .collections__nav .left__nav{
+  padding: 0;
+  margin: 1rem;
+}
+
+  .section__two .collections__nav .left__nav a{
+    font-size: 1.2rem;
+    border: 1px solid black;
+  }
+  .section__two .collections__nav .left__nav a:last-child{
+    color: black;
+    padding: 0px 10px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .section__two .collections__nav p{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+  }
+
+  .section__two .section__two__inner{
+    height: 90%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section__two .section__two__inner .section__two__left, .section__two__middle, .section__two__right{
+    width: 100%;
+    height: 33%;
+    background-color: white;
+
+  }
+  
+  /*------------------------ SECTION TWO LEFT ------------------------*/
+
+.section__two__left img{
+  width: 25rem;
+}
+
+/*------------------------ SECTION TWO MIDDLE ------------------------*/
+.section__two .section__two__inner .section__two__middle{
+  width: 100%;
+  height: 33%;
+  background-color: white;
+}
+
+.section__two__inner .section__two__middle .middle__curved__circle{
+  width: 18rem;
+  height: 18rem ;
+  border: 1px solid black;
+}
+
+.middle__curved__circle .arrow__circle{
+  width: 5rem;
+  height: 5rem;
+  top: 5%;
+  right: -10%;
+}
+.middle__curved__circle .arrow__circle h3{
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 500;
+  margin-right: 20%;
+}
+.middle__curved__circle .arrow__circle img{
+  top: 27%;
+  left: -0.5rem;
+  width: 1rem;
+}
+
+.section__two__inner .section__two__middle .middle__curved__circle .circle__text  h1{
+  font-size: 3rem;
+}
+
+.section__two__inner .section__two__middle .middle__curved__circle .circle__text h1 span{
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.middle__curved__circle .circle__text h5{
+  color: black;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.middle__curved__circle a i{
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 4rem;
+}
+
+.middle__curved__circle a i:hover{
+  color: var(--kappel);
+  transition: all 300ms ease;
+}
+
+  /*------------------------ SECTION TWO right ------------------------*/
+ 
+  .section__two .section__two__inner .section__two__right{
+    width: 100%;
+    height: 33%;
+    background-color: white;
+
+  }
+  
+  .section__two__right img{
+    width: 25rem;
+  }
+
+  
 }
