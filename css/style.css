@@ -540,6 +540,7 @@
     text-transform: capitalize;
     line-height: 1.1;
     margin-top: 6rem;
+    opacity: 0;
     animation: 2s ease forwards hero_animation__main__text;
    }
 
@@ -564,6 +565,7 @@
     width: 85%;
     color: black; 
     padding: 0;
+    opacity: 0;
     animation: 1.5s ease forwards hero_animation__description__text;
    }
    .spring .hero__description a .hero__cta{
@@ -592,6 +594,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 1.3rem;
+    opacity: 0;
     animation: 1.5s ease forwards hero_animation__access;
    }
    .spring .partners a{
@@ -2341,7 +2344,6 @@
     margin-top: 1.5rem;
     font-size: 1.3rem;
     opacity: 0;
-    animation: 1.5s ease forwards hero_animation__description__text;
     animation-delay: 1s;
     transition: all 300ms ease;
   }
@@ -2353,7 +2355,6 @@
     margin-top: 0;
     font-size: 4rem;
     opacity: 0;
-    animation: 2s ease forwards hero_animation__main__text;
     animation-delay: d;
     transition: all 300ms ease;
   }
@@ -2364,7 +2365,6 @@
   .hero .partners{
     justify-content: center;
     opacity: 0;
-    animation: 1.5s ease forwards hero_animation__access;
     animation-delay: 1.5s;
     transition: all 300ms ease;
   }
