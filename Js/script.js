@@ -91,3 +91,20 @@ input.addEventListener('blur', function() {
     label.style.transform = 'none';
   }
 });
+
+
+
+
+// SIGN OUT CONTAINER STYLE
+
+const signOutIcon = document.querySelector('#sign__out__icon')
+const signOutCon = document.querySelector('#sign__out__container')
+
+const signingOut = () =>{
+  signOutCon.style.display = 'block';
+}
+signOutIcon.addEventListener('click', () => {
+    setTimeout(() => {
+       signingOut();
+    }, 2000);
+})

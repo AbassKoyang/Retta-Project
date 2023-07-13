@@ -353,6 +353,45 @@ img{
   border-radius: var(--radius-circle);
 }
 
+/*--------------------- SIGN OUT CON ---------------------*/
+.sign__out__con{
+  width: fit-content;
+  height: fit-content;
+  background-color: #f5cd9b;
+  padding: 1rem;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  bottom: -9rem;
+  transform: translateX(-50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: none;
+}
+.sign__out__con::before{
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  background-color: #f5cd9b;
+  rotate: 45deg;
+  position: absolute;
+  top: -0.40rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sign__out__con h4{
+  font-size: 2rem;
+  line-height: 1;
+  font-family: var(--ff-league_spartan);
+  font-weight: 500;
+  color: black;
+}
+.sign__out__con p{
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: var(--ff-league_spartan);
+  color: black;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -479,8 +518,8 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
     gap: 0.8rem;
     place-items: center;
-    align-content: space-evenly;
-    background-color: pink;
+    justify-content: center;
+    background-color: white;
     padding: 0;
     margin-bottom: 5rem;
   }
@@ -494,9 +533,16 @@ img{
     border-radius: 10px;
     overflow: hidden;
     height: 100%;
+    position: relative;
   }
 
-  .section__one .collections .collection:first-child{
+  .section__one .collections .collection .favourite__icon{
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 10% ;
+    font-size: 2rem;
+    color: black;
   }
 
   .section__one .collections .collection .product__image__con{
@@ -1137,6 +1183,48 @@ img{
 }
 .section__one .collections .collection .collections__cta .product__name p{
   font-size: 1.4rem;
+}
+
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:576px) {
+  .section__one{
+    height: fit-content;
+  }
+
+  .section__one h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .section__one .collections{
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 48%));
+    row-gap: 2rem;
+    place-items: center;
+    align-content: center;
+    background-color: white;
+  }
+  .section__one .collections .collection .favourite__icon{
+    font-size: 1.2rem;
+  }
+
+  .section__one .collections .collection .collections__cta .cart__con{
+    width: 3rem;
+    height: 3rem;
+  }
+  .section__one .collections .collection .collections__cta .cart__con .cart__icon{
+    font-size: 1.3rem;
+   
+}
+.section__one .collections .collection .collections__cta .product__name h2{
+  font-size: 1.3rem;
+}
+.section__one .collections .collection .collections__cta .product__name p{
+  font-size: 1.1rem;
 }
 
 }
