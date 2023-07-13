@@ -79,3 +79,15 @@ const glide = new Glide('.glide', {
 });
 
 glide.mount(); // Mount the slider
+const input = document.getElementById('name');
+const label = document.querySelector('label[for="name"]');
+
+input.addEventListener('focus', function() {
+  label.style.transform = 'translateY(-20px)';
+});
+
+input.addEventListener('blur', function() {
+  if (input.value === '') {
+    label.style.transform = 'none';
+  }
+});
