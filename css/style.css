@@ -447,6 +447,40 @@
     opacity: 1;
     pointer-events: all;
   }
+  .sign__out__con{
+    width: fit-content;
+    height: fit-content;
+    background-color: #f5cd9b;
+    padding: 1rem;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    bottom: -9rem;
+    transform: translateX(-50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: none;
+  }
+  
+  .sign__out__con a{
+    display: none;
+  }
+  .sign__out__con::before{
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background-color: #f5cd9b;
+    rotate: 45deg;
+    position: absolute;
+    top: -0.40rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .sign__out__con p{
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: var(--ff-league_spartan);
+    color: black;
+  }
   
   
   
@@ -577,10 +611,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 300ms ease;
    }
    .spring .hero__description a .hero__cta:hover{
     background-color: var(--kappel);
-    transition: all 300ms ease;
    }
 
    .spring .hero__description a .hero__cta i{
@@ -712,10 +746,10 @@
 .side__nav .socials__con a i{
     font-size: 2.5rem;
     color: black;
+    transition: all 300ms ease;
 }
 
 .side__nav .socials__con a i:hover{
-  transition: all 300ms ease;
   color: var(--kappel);
 }
 
@@ -881,11 +915,11 @@
   margin: 0;
   font-size: 5rem;
   line-height: 1;
+  transition: all 300ms ease;
 }
 
 .middle__curved__circle a i:hover{
   color: var(--kappel);
-  transition: all 300ms ease;
 }
 
 /*------------------------ SECTION TWO RIGHT ------------------------*/
@@ -965,10 +999,10 @@
     align-items: center;
     justify-content: center;
     margin-right: 3rem;
+    transition: all 300ms ease;
    }
    .section__three .section__three__text__con .see__more__text__con .cta:hover{
     background-color: var(--kappel);
-    transition: all 300ms ease;
    }
 
    .section__three .section__three__text__con .see__more__text__con .cta i{
@@ -1025,11 +1059,11 @@
     align-items: center;
     justify-content: center;
     margin-right: 3rem;
+    transition: all 300ms ease;
    }
    .section__three .section__three__collections__con .section__three__collection__con .view__collection__con .cta:hover{
     background-color: black;
     border: 3px solid black;
-    transition: all 300ms ease;
    }
    .section__three .section__three__collections__con .section__three__collection__con .view__collection__con .cta:hover .dark {
     color: white;
@@ -1128,7 +1162,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: all 300ms ease;
    }
    .section__four .content__con > div > div h3{
     color: black;
@@ -1139,7 +1173,6 @@
    .section__four .content__con > div > div a:hover{
     background-color: black;
     border: 3px solid black;
-    transition: all 300ms ease;
    }
    .section__four .content__con > div > div a:hover .dark2 {
     color: white;
@@ -1270,6 +1303,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 300ms ease;
  }
 
  /* .section__five .new__collections > div > a{
@@ -1562,6 +1596,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: all 300ms ease;
    }
   
    /* .section__five .new__collections > div > a{
@@ -1618,6 +1653,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: all 300ms ease;
    }
   
    /* .section__five .new__collections > div > a{

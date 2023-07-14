@@ -53,3 +53,16 @@ signOutButton.addEventListener("click", (e) =>{
     window.location = "index.html"
 
 })
+
+// SIGN OUT CONTAINER STYLE
+
+const signOutIcon = document.querySelector('#sign__out__icon2')
+const signOutCon = document.querySelector('#sign__out__container')
+
+signOutIcon.addEventListener('click', ()=>{
+    signOutCon.style.display ='block';
+    setTimeout(() => {
+        signOutCon.style.display ='none';
+    }, 2000);
+});
+

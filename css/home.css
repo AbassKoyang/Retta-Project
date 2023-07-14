@@ -367,6 +367,10 @@ img{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: none;
 }
+
+.sign__out__con a{
+  display: none;
+}
 .sign__out__con::before{
   content: '';
   width: 2rem;
@@ -1225,6 +1229,28 @@ img{
 }
 .section__one .collections .collection .collections__cta .product__name p{
   font-size: 1.1rem;
+}
+
+
+.sign__out__con{
+  height: fit-content;
+  bottom: -6.54rem;
+}
+
+.sign__out__con a{
+  display: block;
+  font-size: 1rem;
+  padding: 0;
+  background-color: white;
+  color: #f5cd9b;
+  border-radius: 30px;
+}
+
+.sign__out__con h4{
+  font-size: 1.5rem;
+}
+.sign__out__con p{
+  font-size: 1rem;
 }
 
 }
