@@ -24,7 +24,6 @@ const firebaseConfig = {
         console.log(user)
     }
     else{
-        alert("User not authenticated, kindly sign up.")
         window.location = "index.html"
     }
   })
@@ -38,10 +37,16 @@ const firebaseConfig = {
         console.log(fullName)
     }
     else{
-        alert("User not authenticated, kindly sign up.")
         window.location = "index.html"
     }
   })
+
+
+//   Sign Out Modal 
+
+signOutButton.addEventListener('click', () =>{
+    modalSignOut.style.display = 'block';
+})
 
 //   sing out function
 let signOutButton = document.getElementById("signout")
@@ -49,7 +54,6 @@ signOutButton.addEventListener("click", (e) =>{
     e.preventDefault();
     console.log("signOut Clicked");
     auth.signOut();
-    alert("Signed Out");
     window.location = "index.html"
 
 })

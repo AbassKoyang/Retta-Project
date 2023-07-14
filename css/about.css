@@ -1556,6 +1556,7 @@
     height:  800px;
     padding: 2rem 2rem;
     text-align: center;
+    flex-direction: column;
 
   }
 
