@@ -59,3 +59,21 @@ function updateCartTotal(){
 }
 
 
+// SIGN OUT CONTAINER STYLE
+
+const signOutIcon = document.querySelector('#sign__out__icon2')
+const signOutCon = document.querySelector('#sign__out__container')
+
+signOutIcon.addEventListener('click', ()=>{
+    signOutCon.style.display ='block';
+    setTimeout(() => {
+        signOutCon.style.display ='none';
+    }, 2000);
+});
+
+
+var modal = document.getElementsByClassName('modal')
+var signOutButton2 = document.getElementsById('sign__out__button')
+signOutButton2.addEventListener('click', () =>{
+    modal.style.display = 'none';
+})

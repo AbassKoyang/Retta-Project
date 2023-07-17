@@ -44,29 +44,27 @@ const firebaseConfig = {
 
 //   Sign Out Modal 
 
-signOutButton.addEventListener('click', () =>{
-    modalSignOut.style.display = 'block';
-})
+
 
 //   sing out function
 let signOutButton = document.getElementById("signout")
 signOutButton.addEventListener("click", (e) =>{
     e.preventDefault();
     console.log("signOut Clicked");
+    confirm('Do you want to sign out?')
     auth.signOut();
     window.location = "index.html"
 
 })
 
-// SIGN OUT CONTAINER STYLE
 
-const signOutIcon = document.querySelector('#sign__out__icon2')
-const signOutCon = document.querySelector('#sign__out__container')
+// var signOutButton2 = document.getElementsByClassName('sign__out__button')
+// var modal = document.getElementsByClassName('modal')
 
-signOutIcon.addEventListener('click', ()=>{
-    signOutCon.style.display ='block';
-    setTimeout(() => {
-        signOutCon.style.display ='none';
-    }, 2000);
-});
+// signOutButton2.addEventListener('click', ()=>{
+//     modal.style.display ='none';
+//     setTimeout(() => {
+//         modal.style.display ='none';
+//     }, 2000);
+// });
 
