@@ -667,8 +667,8 @@
     background: white;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     padding-left: 8rem;
     position: relative;
    }
@@ -1379,7 +1379,7 @@
     padding: 0 3rem;
     position: relative;
     background-color: #f5cc9bd9;
-    margin-top: 18rem;
+    margin-top: 30rem;
     margin-bottom: 25rem;
   }
 
@@ -2624,7 +2624,7 @@
     font-size: 1.3rem;
   }
   .section__three .section__three__text__con .see__more__text__con{
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
   .section__three .section__three__text__con .see__more__text__con h2{
     font-weight: 600;
@@ -2704,7 +2704,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 25rem;
+  margin-top: 60rem;
   margin-bottom: 25rem;
   position: relative;
 }
@@ -3137,7 +3137,7 @@
 
    .section__seven .featured__collections .hoodie__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/adidas\ contempo.webp);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
@@ -3187,7 +3187,7 @@
 
    .section__seven .featured__collections > div .pant__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/nikepant.png);
     background-repeat: no-repeat;
     position: relative;
     background-position: left;
@@ -3195,7 +3195,7 @@
    }
    .section__seven .featured__collections > div .shoes__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/nikeshoe.png);
     background-repeat: no-repeat;
     position: relative;
     background-position: left;
