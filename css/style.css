@@ -1078,6 +1078,27 @@
   
   /*------------------------ SECTION FOUR (INTEREST)------------------------*/
 
+  .custom-shape-divider-top-1688924577 {
+    position: absolute;
+    top: -137px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* transform: rotate(180deg); */
+}
+
+.custom-shape-divider-top-1688924577 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 138px;
+}
+
+.custom-shape-divider-top-1688924577 .shape-fill {
+    fill: #f5cc9bd9;
+}
+
   .section__four{
     width: 100%;
     height: 80vh;
@@ -1090,27 +1111,6 @@
     position: relative;
   }
 
-  .custom-shape-divider-top-1688923800 {
-    position: absolute;
-    bottom: -137px;
-    left: 0;
-    width: 100%;
-   overflow-x: hidden;
-   overflow-y: visible;
-    line-height: 0;
-    z-index: 0;
-}
-
-.custom-shape-divider-top-1688923800 svg {
-    position: relative;
-    display: block;
-    width: calc(110% + 1.3px);
-    height: 138px;
-}
-
-.custom-shape-divider-top-1688923800 .shape-fill {
-    fill: #f5cc9bd9;
-}
 
   .section__four .content__con{
     background-color: transparent;
@@ -1196,24 +1196,27 @@
     width: 510px;
   }
 
-  .custom-shape-divider-top-1688924577 {
+
+
+  .custom-shape-divider-top-1688923800 {
     position: absolute;
-    top: -137px;
+    bottom: -137px;
     left: 0;
     width: 100%;
-    overflow: hidden;
+   overflow-x: hidden;
+   overflow-y: visible;
     line-height: 0;
-    /* transform: rotate(180deg); */
+    z-index: 0;
 }
 
-.custom-shape-divider-top-1688924577 svg {
+.custom-shape-divider-top-1688923800 svg {
     position: relative;
     display: block;
     width: calc(110% + 1.3px);
     height: 138px;
 }
 
-.custom-shape-divider-top-1688924577 .shape-fill {
+.custom-shape-divider-top-1688923800 .shape-fill {
     fill: #f5cc9bd9;
 }
 
@@ -1569,10 +1572,10 @@
 
    .section__seven .featured__collections .hoodie__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/adidas_contempo-removebg-preview.png);
     background-repeat: no-repeat;
-    background-position: center;
     border-radius:10px;
+    background-position: center;
    }
 
    .section__seven .featured__collections .hoodie__collection h1{
@@ -1619,17 +1622,19 @@
 
    .section__seven .featured__collections > div .pant__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/nikepant.png);
     background-repeat: no-repeat;
     position: relative;
     border-radius:10px;
+    background-position: center;
    }
    .section__seven .featured__collections > div .shoes__collection{
     background-color: rgba(219, 216, 216, 0.837);
-    background-image: url(/assets/images/polo_black_guy2-removebg-preview\ 1cropped.png);
+    background-image: url(/Retta-Project/assets/images/nikeshoe.png);
     background-repeat: no-repeat;
     position: relative;
     border-radius:10px;
+    background-position: center;
    } 
 
    .section__seven .featured__collections > div > div  h1{
