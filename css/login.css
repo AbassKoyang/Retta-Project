@@ -84,7 +84,7 @@ nav{
 
 }
 nav .logo{
-    font-family: 'Work Sans';
+    font-family: var(--ff-league_spartan);
     font-weight: 700;
     font-size: 2rem;
     margin-left: 50px;
@@ -209,6 +209,7 @@ form .button__con button{
     font-weight: 500;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
 }
 form .button__con button:hover{
     opacity: 0.9;

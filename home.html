@@ -91,7 +91,9 @@
           <li class="navbar-item">
             <a href="#others" class="navbar-link" data-nav-link>Others</a>
           </li>
-
+          <li class="navbar-item">
+            <button  type="submit" class=" has-before" id="logOut">Log Out</button>
+          </li>
         </ul>
 
       </nav>
@@ -116,7 +118,7 @@
           </div>
           <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
         </button>
-        <button  type="submit" class="btn has-before" id="signout" >Log Out</button>
+        <button  type="submit" class="btn has-before" id="logOut">Log Out</button>
 
         <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -868,115 +870,19 @@
 
   </footer>
 
-  <!--================================ CART ================================-->
+  <!-------------------------------------------
+     Sign Out Modal 
+  --------------------------------------------->
 
-<div class="cart__container">
-  <div class="cart">
-    <h2 class="section__header">Cart</h2>
-    <div class="cart__row">
-      <span class="cart__item cart__header">ITEM</span>
-      <span class="cart__price cart__header">PRICE</span>
-      <span class="cart__quantity cart__header">QUANTITY</span>
-    </div>
-  
-    <div class="cart__items">
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/table guy.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦12000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
-      <div class="cart__row2">
-        <div class="cart__item">
-          <img src="./assets/images/three guysmiddle.jpeg" class="cart__item__image" alt="Cart Item Image" width="80" height="80">
-          <span class="cart__item__title">Hoodie</span>
-        </div>
-        <span class="cart__price">₦15000.00</span>
-        <div class="cart__quantity">
-          <input type="number" class="cart__quantity__input" value="1">
-          <button class="btn__danger" type="button">REMOVE</button>
-        </div>
-      </div>
+  <div class="sign__out__modal" id="signOutModal">
+    <h2>Are you sure you want to sign out?</h2>
+    <div class="sign__out__buttons__con">
+      <button class="has-before" id="signout">Yes, I'm sure</button>
+    <button class="has-before" id="signOutCancelButton">No, cancel</button>
     </div>
   </div>
-  <div class="check__out">
-    <div class="total__con">
-        <h5 >Total: <span class="cart__total__price">₦0.00</span></h5>
-    </div>
-    <a class="btn__checkout" style="cursor: pointer;">Proceed To Checkout</a>
-  </div>
-</div>
+
+  <!--================================ CART ================================-->
 
    <!-- 
     - #BACK TO TOP

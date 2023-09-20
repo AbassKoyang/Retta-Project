@@ -51,20 +51,11 @@ let signOutButton = document.getElementById("signout")
 signOutButton.addEventListener("click", (e) =>{
     e.preventDefault();
     console.log("signOut Clicked");
-    confirm('Do you want to sign out?')
     auth.signOut();
     window.location = "index.html"
 
 })
 
 
-// var signOutButton2 = document.getElementsByClassName('sign__out__button')
-// var modal = document.getElementsByClassName('modal')
 
-// signOutButton2.addEventListener('click', ()=>{
-//     modal.style.display ='none';
-//     setTimeout(() => {
-//         modal.style.display ='none';
-//     }, 2000);
-// });
 

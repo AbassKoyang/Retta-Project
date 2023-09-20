@@ -24,6 +24,9 @@
     --btn-padding:0.6rem 2rem;
     --search-padding:0.9rem 1rem;
     --card-padding:1rem;
+
+    --ff-league_spartan: 'League Spartan', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif; 
 }
 
 
@@ -78,8 +81,8 @@ nav{
     z-index: 100;
 
 }
-nav .logo{
-    font-family: 'Work Sans';
+.container nav .logo{
+    font-family: var(--ff-league_spartan);
     font-weight: 700;
     font-size: 2rem;
     margin-left: 50px;

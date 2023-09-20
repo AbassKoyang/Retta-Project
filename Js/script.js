@@ -24,8 +24,8 @@ const addEventOnElem = function (elem, type, callback) {
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
-const navLinks = document.querySelectorAll("[data-nav-link]");
-const overlay = document.querySelector("[data-overlay]");
+let navLinks = document.querySelectorAll("[data-nav-link]");
+let overlay = document.querySelector("[data-overlay]");
 
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
@@ -41,7 +41,20 @@ const closeNavbar = function () {
 
 addEventOnElem(navLinks, "click", closeNavbar);
 
+let logOutButton = document.getElementById('logOut');
+let signOutModal = document.getElementById('signOutModal');
+let signOutCancelButton = document.getElementById('signOutCancelButton');
 
+logOutButton.addEventListener("click", () => {
+  console.log("Log Out Button clicked!");
+  signOutModal.style.display = 'flex';
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
+})
+signOutCancelButton.addEventListener("click", () => {
+  console.log("Cancel Button clicked!");
+  signOutModal.style.display = 'none';
+})
 
 /**
  * header active when scroll down to 100px
